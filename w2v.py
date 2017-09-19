@@ -8,7 +8,7 @@ import tensorflow as tf
 
 stopwords = set(stopwords.words('English'))
 
-with open('HDFC08-09.txt') as f:
+with open('../') as f:
     text = f.read().lower()
     texts = re.sub('[.;,\\\\/:*?"<>|)(]', '',text)
   
